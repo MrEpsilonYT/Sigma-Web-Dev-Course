@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Css Variables</title>
+</head>
+
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+    </style>
+    <style>
+       body {
+            padding: 0%;
+            margin: 0%;
+            font-family: 'Poppins', sans-serif;
+            background-color: aqua;
+        }
+
+        :root {
+            --color: rgb(93, 93, 182);
+            --secolor: rgb(177, 177, 255);
+            --color5: rgb(141, 114, 188);
+        }
+
+        .nav {
+            background-color: var(--color);
+            display: inline;
+            border: 10px;
+            margin: 0px;
+
+        }
+
+        .container {
+            background-color: var(--secolor);
+        }
+
+        ul li {
+            list-style-type: none;
+            padding: 1px;
+            display: inline;
+            margin: 53px;
+
+        }
+
+        ul {
+            padding: 5px;
+            margin: 1px;
+            background-color: var(--secolor);
+        }
+    </style>
+    <div class=nav>
+        <ul>
+            <li class="home">Home</li>
+            <li class="details">Details</li>
+            <li class="contact">Contact</li>
+        </ul>
+    </div>
+    <div class="container">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo cupiditate reiciendis doloremque incidunt quasi,
+        unde architecto dolor exercitationem. Voluptas distinctio quam quo aut corporis harum molestiae, quae, provident
+        sit exercitationem et est pariatur quod? Exercitationem deserunt, consectetur alias consequuntur, impedit animi
+        numquam perferendis commodi voluptas deleniti molestiae similique incidunt libero asperiores repudiandae. Nisi
+        odit laboriosam illum, quam numquam itaque autem ad laborum et, accusamus libero dignissimos labore corrupti
+        quis inventore minus facere magnam impedit quia, temporibus quod qui placeat magni sed. Deleniti a repellat
+        inventore odit magnam natus aliquam neque, eius facilis quae. Praesentium consectetur ex labore, quia iste
+        distinctio.
+    </div>
+</body>
+
+</html>

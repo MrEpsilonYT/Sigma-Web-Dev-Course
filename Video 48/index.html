@@ -13,7 +13,30 @@
             border-radius: 70px;
             position: absolute;
             bottom: 0;
-            left: 0; 
+            left: 0;
+            animation: siddhu1 3s linear infinite alternate, 
+             siddhu2 1s ease-in-out infinite alternate-reverse; 
+        }
+
+
+        @keyframes siddhu1 {
+            from {
+                left: 0;
+            }
+
+            to {
+                background-color: blueviolet;
+                left: 100%;
+            }
+        }
+
+        @keyframes siddhu2 {
+            from {
+                bottom: 0;
+            }
+            to { 
+                bottom: 100%;
+            }
         }
 
         .container {
@@ -22,7 +45,6 @@
             width: 80vw;
             background-color: blue;
         }
- 
     </style>
 </head>
 
